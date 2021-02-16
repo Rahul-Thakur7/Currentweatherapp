@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const hbs = require('hbs');
 const hostname = '0.0.0.0';
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 4000;
 
 
 // http://localhost:8000/

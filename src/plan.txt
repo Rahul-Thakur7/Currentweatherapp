@@ -1,0 +1,17 @@
+ mkdir src    
+  cd src
+   type nul > app.js
+   npm init
+   npm install express
+   nodemon src/app.js 
+
+////
+deployment
+
+check heroku -v for version
+
+check ssh key with cmd in gir bash 
+id_rsa 
+ls -al ~/.ssh 
+u can found by heroku keys:add 
+if u found id_rsa.pub then u can host 
